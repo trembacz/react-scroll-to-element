@@ -37,6 +37,10 @@ import Scroll from 'react-scroll-to-element';
   Scroll to element with class 'contact'
 </Scroll>
 
+<Scroll>
+  Scroll to top
+</Scroll>
+
 <Scroll offset={200}>
   Scroll 200 px down (from top)
 </Scroll>
