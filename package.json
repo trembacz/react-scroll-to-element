@@ -1,7 +1,7 @@
 {
 	"name": "react-scroll-to-element",
-	"version": "0.1.1",
-	"description": "Scroll to any element of your React application.",
+	"version": "0.1.2",
+	"description": "Scroll to any element of your React application",
 	"main": "lib/index.js",
 	"scripts": {
 		"clean": "rimraf lib || rm -rf lib ",
