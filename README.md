@@ -9,7 +9,9 @@ Scroll to any element of your React application
 
 **1. Install**
 
-```npm install react-scroll-to-element``` or ```yarn add react-scroll-to-element```
+```npm install react-scroll-to-element```
+or
+```yarn add react-scroll-to-element```
 
 **2. Options**
 
@@ -24,6 +26,9 @@ Scroll to any element of your React application
 **3. Usage**
 
 ```js
+
+import Scroll from 'react-scroll-to-element';
+
 <Scroll type="id" element="title">
   Scroll to element with id 'title'
 </Scroll>
