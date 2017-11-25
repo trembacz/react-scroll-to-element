@@ -1,0 +1,43 @@
+{
+	"name": "react-scroll-to-element",
+	"version": "0.1.0",
+	"description": "Scroll to any element of your React application.",
+	"main": "lib/index.js",
+	"scripts": {
+		"clean": "rimraf lib || rm -rf lib ",
+		"build": "babel src --out-dir lib",
+		"prepublish": "npm run clean && npm run build"
+	},
+	"keywords": [
+		"react",
+		"scroll",
+		"element",
+		"class",
+		"id",
+		"pixels",
+		"offset"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/trembacz/react-scroll-to-element.git"
+	},
+	"author": "Tomasz Rembacz (trembacz@squiz.pl)",
+	"license": "MIT",
+	"dependencies": {
+		"prop-types": "^15.6.0",
+		"react": "^16.1.1",
+		"smoothscroll-polyfill": "^0.4.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.0.2",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1"
+	},
+	"files": [
+		"lib/",
+		"index.js"
+	]
+}
