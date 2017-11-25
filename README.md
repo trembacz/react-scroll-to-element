@@ -19,23 +19,41 @@ Scroll to any element of your React application
 | ```element```       | ```string```  | Scroll to this element (use with ```type```)                         |
 | ```offset```        | ```number```  | Scroll ```x``` pixels down                                           |
 | ```timeout```       | ```number```  | Start scrolling after ```x``` ms                                     |
+| ```children```      | ```string```  | Text or html tags                                                    |
 
 **3. Usage**
 
 ```js
-<Scroll type="id" element="title">Scroll to element with id 'title'</Scroll>
-<Scroll type="class" element="contact">Scroll to element with class 'contact'</Scroll>
-<Scroll offset={200}>Scroll 200px down (from top)</Scroll>
-<Scroll offset={200} timeout={3000}>Scroll 200px down (from top) after 3 seconds</Scroll>
-<Scroll type="class" element="contact" offset={200} timeout={3000}>Scroll to element with class 'contact' + 200px down after 3 seconds</Scroll>
-<Scroll type="class" element="contact" offset={-100}>Scroll to element with class 'contact' - 100px</Scroll>
+<Scroll type="id" element="title">
+  Scroll to element with id 'title'
+</Scroll>
+
+<Scroll type="class" element="contact">
+  Scroll to element with class 'contact'
+</Scroll>
+
+<Scroll offset={200}>
+  Scroll 200 px down (from top)
+</Scroll>
+
+<Scroll offset={200} timeout={3000}>
+  Scroll 200 px down (from top) after 3 seconds
+</Scroll>
+
+<Scroll type="class" element="contact" offset={200} timeout={3000}>
+  Scroll to element with class 'contact' + 200 px down after 3 seconds
+</Scroll>
+
+<Scroll type="class" element="contact" offset={-100}>
+  Scroll to element with class 'contact' - 100 px
+</Scroll>
 ```
 
-*** You can also use html tags inside the component ***
+***You can also use html tags inside the component***
 
 ```js
 <Scroll type="class" element="contact" offset={-100} timeout={3000}>
-	<button>Click me</button>
+  <button>Click me</button>
 </Scroll>
 ```
 
