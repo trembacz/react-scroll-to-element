@@ -1,6 +1,6 @@
 {
 	"name": "react-scroll-to-element",
-	"version": "0.1.4",
+	"version": "0.2.0",
 	"description": "Scroll to any element of your React application",
 	"main": "lib/index.js",
 	"scripts": {
@@ -34,7 +34,8 @@
 		"babel-eslint": "^8.0.2",
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-react": "^6.24.1",
-		"babel-preset-stage-2": "^6.24.1"
+		"babel-preset-stage-2": "^6.24.1",
+		"rimraf": "^2.6.2"
 	},
 	"files": [
 		"lib/"
