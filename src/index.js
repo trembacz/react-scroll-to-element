@@ -1,7 +1,8 @@
 require('smoothscroll-polyfill').polyfill();
 import React from 'react';
 import PropTypes from 'prop-types';
-import Element from './Element';
+
+const Element = (props) => { return ( props.children ); };
 
 class Scroll extends React.Component {
 	static propTypes = {

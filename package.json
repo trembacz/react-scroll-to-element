@@ -1,6 +1,6 @@
 {
 	"name": "react-scroll-to-element",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Scroll to any element of your React application",
 	"main": "lib/index.js",
 	"scripts": {
