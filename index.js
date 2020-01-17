@@ -1,4 +1,6 @@
-require('smoothscroll-polyfill').polyfill();
+if ('undefined' !== typeof window) {
+	require('smoothscroll-polyfill').polyfill();
+}
 import React from 'react';
 import PropTypes from 'prop-types';
 
